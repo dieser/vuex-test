@@ -1,0 +1,19 @@
+{
+  "name": "vuex-test",
+  "public": "public",
+  "src": "src",
+  "dist": "dist",
+  "entries": [
+    {
+      "name": "app.js",
+      "entry": [
+        "babel-polyfill",
+        "/js/app.js"
+      ]
+    },
+    {
+      "name": "app.css",
+      "entry": "/sass/app.scss"
+    }
+  ]
+}
